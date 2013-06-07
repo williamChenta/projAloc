@@ -23,15 +23,18 @@
   </head>
   <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container-fluid">
+    <div class="navbar navbar-inverse navbar-fixed-top" style="z-index:2;">
+      <div class="navbar-inner" style="z-index:3;">
+        <div class="container-fluid" style="z-index:4;">
           <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="#" class="brand">Sistema de alocação de salas</a>
+          <a href="#" class="brand">
+            <img src="<?php echo base_url('assets/img/logoFiesc.png') ?>" style="margin-right:30px;"/>
+            Sistema de alocação de salas
+          </a>
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right">
               Logado como <a class="navbar-link" href="#">Arquelau Pasta</a>

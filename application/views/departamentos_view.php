@@ -12,7 +12,7 @@
         </div>
         <div class="control-group">
             <div class="controls">
-                <button type="button" class="btn" onclick="acao('salvar','frmDepartamentos','')">Salvar</button>
+                <button type="button" class="btn btn-primary" onclick="acao('salvar','frmDepartamentos','')">Salvar</button>
             </div>
         </div>
     </form>

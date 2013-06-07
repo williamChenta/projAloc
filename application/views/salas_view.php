@@ -73,7 +73,7 @@
       </div>
       <div class="control-group">
         <div class="controls">
-          <button type="button" class="btn" onclick="acao('salvar','frmSalas','')">Salvar</button>
+          <button type="button" class="btn btn-primary" onclick="acao('salvar','frmSalas','')">Salvar</button>
           <button id="btnCancelar" type="button" class="btn" onclick="closeUI();">Cancelar</button>
         </div>
       </div>
@@ -141,7 +141,7 @@
 </div>
 
 <div style="text-align:right; padding: 10px; margin-right: 35px;">
-  <button id="btnCadastro" type="button" class="btn" onclick="">Nova Sala</button>
+  <button id="btnCadastro" type="button" class="btn btn-primary" onclick="">Nova Sala</button>
 </div>
 
 <script>
